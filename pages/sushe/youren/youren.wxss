@@ -1,0 +1,14 @@
+.style{
+  font-size: 50rpx;
+  justify-items: center;
+}
+.hei{
+  width:90%;
+  color:black;
+  border: 1rpx solid;
+  background-color: green;
+}
+.style1{
+  width:400rpx;
+  height: 209rpx;
+}

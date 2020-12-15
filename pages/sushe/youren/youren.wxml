@@ -1,0 +1,10 @@
+<!--pages/youren/youren.wxml-->
+<image src="/assets/有人.jpg" ></image>
+<button class="hei" bindtap="zhuanhui">回防</button>
+<image src="/assets/噤声.jpg" class="style1" ></image>
+<view class="style">
+  <text>There are people in your house!!!</text>
+  <text>\n</text>
+  <text>Be quiet or you will disturb them.</text>
+</view>
+

@@ -1,0 +1,12 @@
+<view class="title"> 宿舍环境实时监控</view>
+<view > 实时湿度</view>
+<canvas class = "canvas" id="chart1"
+canvas-id="humidity"></canvas>
+<view>实时光强</view>
+<canvas class = "canvas" id="chart2"
+canvas-id="light"></canvas>
+<view>实时温度</view>
+<canvas class = "canvas" id="chart3"
+canvas-id="tempe"></canvas>
+<button class="btn1" wx:if="{{val==1.00}}" bindtap="youren">屋内有人吗？</button>
+<button class="btn1" wx:if="{{val!=1.00}}" bindtap="wuren">屋内有人吗？</button>

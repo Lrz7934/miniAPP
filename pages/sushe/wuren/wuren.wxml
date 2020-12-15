@@ -1,0 +1,11 @@
+<!--pages/wuren/wuren.wxml-->
+<image src="/image/无人.jpg"></image>
+<button class="hei" bindtap="zhuanhui">回防</button>
+<view class="style">
+  <text>No people in your room.</text>
+  <text>\n</text>
+  <text>You can be crazy but if you don't have the key.</text>
+  <text>\n</text>
+  <text>Call them.</text>
+</view>
+<image src="/image/噤声1.jpg" class="style1" ></image>
